@@ -1,0 +1,144 @@
+body {
+    font-family: 'Archivo Black', sans-serif;
+    background-color: white;
+}
+
+nav {
+    margin-top: 1%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+}
+
+.navbar {
+    z-index: 0;
+}
+
+nav a {
+    padding-top: 2.5%;
+    padding-bottom: 0;
+    padding-right: 0;
+    color: black;
+    font-size: 1.2rem;
+    letter-spacing: 0;
+    text-align: center;
+    transition-duration: .6s;
+    transition-timing-function: ease;
+}
+
+nav a:hover,
+nav a:active {
+    text-decoration: none;
+    color: grey;
+    letter-spacing: 2px;
+    transition-duration: .6s;
+    transition-timing-function: ease;
+}
+
+#empty {
+    height: 10%;
+}
+
+#container-work {
+    padding-top: 5%;
+    position: fixed;
+}
+
+#container-img {
+    margin-top: 40%;
+    margin-bottom: 20%;
+}
+
+.text_padding {
+    padding-left: 5%;
+}
+
+.text_padding2 {
+    padding-left: 2%;
+    padding-right: 4.5%;
+}
+
+.text_margin {
+    margin: 0;
+}
+
+.title {
+    font-size: 5rem;
+    color: #6534ff;
+}
+
+.sub_title {
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 2rem;
+}
+
+.row_svg {
+    margin-top: 1.5%;
+    height: 20px;
+}
+
+.text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+}
+
+.text_bottom {
+    text-align: right;
+}
+
+.row_bottom {
+    margin-top: 2%;
+}
+
+.row_img {
+    z-index: 5;
+    margin-top: 5%;
+}
+
+
+/*.row_text {
+    height:20%;
+}*/
+
+.rotate {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    text-align: right;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 1.1rem;
+    padding-top: 60%;
+}
+
+img {
+    width: 100%;
+}
+
+.border {
+    border-color: darkgrey;
+}
+
+.img_hover_text {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.img_hover:hover .img_hover_text {
+  opacity: 1;
+}
+
+.img_hover_text p {
+  color: #6534ff;
+  font-size: 35px;
+  text-align: center;
+    text-decoration: underline;
+}

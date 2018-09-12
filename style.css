@@ -1,0 +1,122 @@
+body {
+    font-family: 'Archivo Black', sans-serif;
+    background: url(Desejo/e.gif) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  
+    overflow-x: hidden;
+}
+
+nav{
+    margin-top:1%;
+    overflow: hidden;
+    position:fixed;
+    top:0;
+}
+
+nav a {
+    padding-top: 2.5%;
+    padding-bottom: 0;
+    padding-right: 0;
+    color: white;
+    font-size: 1.2rem;
+    letter-spacing: 0;
+    text-align: center;
+    transition-duration: .6s;
+    transition-timing-function: ease;
+}
+
+nav a:hover,
+nav a:active {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    transition-duration: .6s;
+    transition-timing-function: ease;
+}
+
+#empty{
+height:10%;    
+}
+
+#container-main {
+    padding-top: 5%;
+}
+
+.areas {
+    margin-top: 2.5%;
+    padding-left: 5%;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 1.3rem;
+    color: white;
+    position:fixed;
+}
+
+.num {
+     font-family: 'Tenor Sans', sans-serif;
+    font-size:1rem;
+    padding-right: 2%;
+    color: white;
+    text-align: right;
+    vertical-align:text-top;
+}
+
+.numtransp {
+     font-family: 'Tenor Sans', sans-serif;
+    font-size:1rem;
+    padding-right: 2%;
+    color: white;
+    text-align: right;
+    vertical-align:text-top;
+    opacity: 0;
+}
+
+
+.list {
+    font-size: 4.2rem;
+    color: white;
+    padding:0;
+}
+
+.list p {
+    line-height: 100%;
+}
+
+p br{
+margin-top:50px;    
+}
+
+.list a{
+    color:white;
+    text-decoration:none;
+}
+
+
+
+.selected{
+    text-decoration: line-through;
+    font-style: italic;
+    transition-duration: .6s;
+    transition-timing-function: ease;
+}
+
+
+.op{
+    opacity:0.25;
+    transition-duration: .6s;
+    transition-timing-function: ease;
+}
+
+#follow{
+    position: absolute;
+    z-index:0;
+}
+
+.disp{
+    display: none;
+}
+
+.inf{
+    z-index: 2;
+}
