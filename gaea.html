@@ -15,15 +15,23 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
     <link rel='stylesheet' href='https://unpkg.com/aos@2.3.0/dist/aos.css'>
+    
+      <!--JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 </head>
 
 
-<body>
+<body id="bd">
+    
+    <div id="loader"><img class="loader_gif" src="loader.gif"> </div>
+
+    <div class="fade-out esconde">
+        
     <nav class="navbar fixed-top navbar-expand-lg">
-        <a class="col-sm-2" href="#">Danieu — A</a>
+        <a class="col-sm-2" href="main.html">Daniela G.</a>
         <div class="col-sm-8"> </div>
-        <a class="col-sm-2" href="#">Profile</a>
+        <a class="col-sm-2" href="about.html">About</a>
     </nav>
 
     <div class="container-fluid" id="empty">
@@ -31,7 +39,7 @@
     </div>
 
     <div class="container-fluid" id="container-work">
-        <!-- <div class="container_work" id=""> -->
+       
         <div class="row row_title">
             <div class="title text_padding">
                 <p class="text_margin">GAEA</p>
@@ -40,9 +48,7 @@
         </div>
 
         <div class="row row_svg">
-            <svg height="210" width="500" class="text_padding ">
-                <line x1="0" y1="0" x2="85" y2="0" style="stroke:rgb(0,0,0);stroke-width:6" />
-            </svg>
+            
         </div>
 
         <div class="row row_text">
@@ -61,21 +67,21 @@
             </div>
 
             <div class="col-sm-2">
-                <p class="rotate">01 — 05</p>
+                <p class="rotate">01 — 06</p>
             </div>
         </div>
 
 
-        <div class="row row_bottom">
+         <div class="row row_bottom">
             <div class="col-sm-5 text_bottom">
             </div>
             <div class="col-sm-1 text_bottom text_padding2">
-                <p>Random</p>
+                <a id="random" class="text_bottom_anim" href="#">Random</a>
             </div>
             <div class="col-sm-4 text_bottom">
             </div>
             <div class="col-sm-2">
-                <p>Next Project</p>
+                <a class="text_bottom_anim" href="womanpower.html">Next Project</a>
             </div>
         </div>
 
@@ -83,7 +89,7 @@
 
     <div class="container-fluid" id="container-img">
         <div class="row row_img">
-            <div class="col-sm-10 text_padding item" data-aos="slide-up">
+            <div class="col-sm-10 text_padding">
                 <img src="Gaea/videocapa.gif">
             </div>
         </div>
@@ -105,12 +111,12 @@
         </div>
 
         <div class="row row_img">
-            <div class="col-sm-10 text_padding" data-aos="slide-up">
+            <div class="col-sm-10 text_padding item" data-aos="slide-up">
                 <img src="Gaea/IMG_0037.jpg">
             </div>
         </div>
         <div class="row row_img">
-            <div class="col-sm-10 text_padding" data-aos="slide-up">
+            <div class="col-sm-10 text_padding item" data-aos="slide-up">
                 <img src="Gaea/IMG_0038.jpg">
             </div>
         </div>
@@ -122,29 +128,29 @@
         </div>
 
         <div class="row row_img">
-            <div class="col-sm-10 text_padding" data-aos="slide-up">
+            <div class="col-sm-10 text_padding item" data-aos="slide-up">
                 <img src="Gaea/IMG_0043.jpg">
             </div>
         </div>
         <div class="row row_img">
-            <div class="col-sm-10 text_padding" data-aos="slide-up">
+            <div class="col-sm-10 text_padding item" data-aos="slide-up">
                 <img src="Gaea/IMG_0045.jpg">
             </div>
         </div>
 
         <div class="row row_img">
-            <div class="col-sm-10 text_padding" data-aos="slide-up">
+            <div class="col-sm-10 text_padding item" data-aos="slide-up">
                 <img class="border" src="Gaea/Edit-new.gif">
             </div>
         </div>
 
         <div class="row row_img">
-            <div class="col-sm-10 text_padding" data-aos="slide-up">
+            <div class="col-sm-10 text_padding item" data-aos="slide-up">
                 <img src="Gaea/IMG_0057.jpg">
             </div>
         </div>
         <div class="row row_img">
-            <div class="col-sm-10 text_padding" data-aos="slide-up">
+            <div class="col-sm-10 text_padding item" data-aos="slide-up">
                 <img src="Gaea/IMG_0061.jpg">
             </div>
         </div>
@@ -164,10 +170,11 @@
         </div>
 
     </div>
-
+    
+    </div>
 
     <script src='https://unpkg.com/aos@2.3.0/dist/aos.js'></script>
-    <script src="js/index.js"></script>
+    <script src="work.js"></script>
 
 </body>
 
