@@ -145,11 +145,11 @@ $(document).ready(function () {
         $("#gaea").addClass("op");
 
         $("#01").addClass("op");
-        $("#02").addClass("op");
+        $("#06").addClass("op");
         $("#03").addClass("op");
         $("#04").addClass("op");
         $("#05").addClass("op");
-        $("#06").removeClass("op");
+        $("#02").removeClass("op");
 
         $("#grad").addClass("selected");
         $("#grad").removeClass("op");
@@ -199,10 +199,10 @@ $(document).ready(function () {
 
         $("#02").addClass("op");
         $("#06").addClass("op");
-        $("#03").addClass("op");
+        $("#05").addClass("op");
         $("#04").addClass("op");
         $("#01").addClass("op");
-        $("#05").removeClass("op");
+        $("#03").removeClass("op");
 
         $("#av").addClass("selected");
         $("#av").removeClass("op");
@@ -252,8 +252,8 @@ $(document).ready(function () {
         $("#06").addClass("op");
         $("#02").addClass("op");
         $("#01").addClass("op");
-        $("#05").addClass("op");
-        $("#03").removeClass("op");
+        $("#03").addClass("op");
+        $("#05").removeClass("op");
 
         $("#grad").addClass("selected");
         $("#grad").removeClass("op");
@@ -297,12 +297,12 @@ $(document).ready(function () {
         $("#desejo").addClass("op");
         $("#ciclo").addClass("op");
 
-        $("#06").addClass("op");
+        $("#02").addClass("op");
         $("#04").addClass("op");
         $("#03").addClass("op");
         $("#01").addClass("op");
         $("#05").addClass("op");
-        $("#02").removeClass("op");
+        $("#06").removeClass("op");
 
         $("#grad").addClass("selected");
         $("#grad").removeClass("op");
@@ -317,44 +317,16 @@ $(document).ready(function () {
         $("#webd").removeClass("selected");
         $("#webdev").removeClass("selected");
 
-        $("body").css('background', 'black');
+        
+        $("body").css('background', 'url("womanPower/away2.jpg") no-repeat center center fixed');
 
-        $('#follow').css('display', 'none');
-        $('#follow2').css('display', 'flex');
+        $("body").css('-webkit-background-size', 'cover');
+        
 
-
-        //image follows mouse         
-        $(document).mousemove(function (e) {
-            move2++;
-            var x = e.pageX - 300;
-            var y = e.pageY - 300;
-            $('#follow').addClass('disp');
-            $('#follow2').removeClass('disp');
-            $('#follow2').css('margin-top', y);
-            $('#follow2').css('margin-left', x);
-
-            if (move2 % 20 == 0) {
-                var path = 'womanPower/main/',
-                    imgs = ['03.jpg', '04.jpg', '05.jpg', '06.jpg', '07.jpg', '08.jpg', '09.jpg', '010.jpg', '011.jpg', '012.jpg', '1.jpg', '012.jpg', '011.jpg', '010.jpg', '09.jpg', '08.jpg', '07.jpg', '06.jpg', '05.jpg', '04.jpg', '03.jpg'];
-
-                i++;
-                if (i <= 0) {
-                    i = 0;
-                } else if (i >= 21) {
-                    i = 0;
-                }
-
-                $('#follow2').attr("src", path + imgs[i]);
-            }
-
-
-
-        });
-
-        $("nav a").removeClass('lat_color');
-        $("span").removeClass('lat_color');
-        $('.num').css('color', 'white');
-        $("p").removeClass('lat_color');
+        $("nav a").addClass('lat_color');
+        $("span").addClass('lat_color');
+        $('.num').css('color', '#272725');
+        $("p").addClass('lat_color');
     });
 
 
@@ -398,22 +370,7 @@ $(document).ready(function () {
         $('#follow2').css('display', 'none');
         $('#follow').css('display', 'flex');
 
-        //image follows mouse         
-        $(document).mousemove(function (e) {
-            move++;
-            var x = e.pageX - 230;
-            var y = e.pageY - 230;
-            $('#follow').removeClass('disp');
-            $('#follow').css('margin-top', y);
-            $('#follow').css('margin-left', x);
-
-            if (move % 20 == 0) {
-                var path = 'murals/main/',
-                    imgs = ['21.jpg', '22.jpg', '23.jpg', '24.jpg', '25.jpg', '26.jpg', '27.jpg', '28.jpg', '29.jpg', '30.jpg', '31.jpg', '32.jpg', '33.jpg', '34.jpg'],
-                    i = Math.floor(Math.random() * imgs.length);
-                $('#follow').attr("src", path + imgs[i]);
-            }
-        });
+     
 
         $("nav a").removeClass('lat_color');
         $("span").removeClass('lat_color');
