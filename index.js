@@ -63,11 +63,6 @@ $(document).ready(function () {
         $("#av").removeClass("selected");
         $("#brand").removeClass("selected");
 
-        $("body").css('background', 'url("Gaea/videocapa.gif") no-repeat center center fixed');
-        $("body").css('-webkit-background-size', 'cover');
-
-        $('#follow').css('display', 'none');
-        $('#follow2').css('display', 'none');
     }
 
 
@@ -112,12 +107,12 @@ $(document).ready(function () {
         $("#brand").removeClass("selected");
 
 
-        $("body").css('background', 'url("Gaea/videocapa.gif") no-repeat center center fixed');
-
-        $("body").css('-webkit-background-size', 'cover');
-
-        $('#follow').css('display', 'none');
-        $('#follow2').css('display', 'none');
+          $(".esconde").addClass('gaea_bg');
+         $(".esconde").removeClass('ciclo_bg');
+         $(".esconde").removeClass('latada_bg');
+         $(".esconde").removeClass('woman_bg');
+         $(".esconde").removeClass('desejo_bg');
+        $(".esconde").removeClass('murals_bg');
 
         $("nav a").removeClass('lat_color');
         $("span").removeClass('lat_color');
@@ -165,12 +160,12 @@ $(document).ready(function () {
         $("#edit").removeClass("selected");
 
 
-        $("body").css('background', 'url("ciclo/Divulgacao.gif") no-repeat center center fixed');
-
-        $("body").css('-webkit-background-size', 'cover');
-
-        $('#follow').css('display', 'none');
-        $('#follow2').css('display', 'none');
+       $(".esconde").addClass('ciclo_bg');
+         $(".esconde").removeClass('gaea_bg');
+         $(".esconde").removeClass('latada_bg');
+         $(".esconde").removeClass('woman_bg');
+         $(".esconde").removeClass('desejo_bg');
+        $(".esconde").removeClass('murals_bg');
 
         $("nav a").addClass('lat_color');
         $("span").addClass('lat_color');
@@ -217,12 +212,12 @@ $(document).ready(function () {
         $("#webd").removeClass("selected");
         $("#webdev").removeClass("selected");
 
-        $("body").css('background', 'url("Desejo/e.gif") no-repeat center center fixed');
-
-        $("body").css('-webkit-background-size', 'cover');
-
-        $('#follow').css('display', 'none');
-        $('#follow2').css('display', 'none');
+         $(".esconde").addClass('desejo_bg');
+         $(".esconde").removeClass('ciclo_bg');
+         $(".esconde").removeClass('latada_bg');
+         $(".esconde").removeClass('woman_bg');
+         $(".esconde").removeClass('gaea_bg');
+        $(".esconde").removeClass('murals_bg');
 
         $("nav a").removeClass('lat_color');
         $("span").removeClass('lat_color');
@@ -268,13 +263,13 @@ $(document).ready(function () {
         $("#webd").removeClass("selected");
         $("#webdev").removeClass("selected");
 
-        $("body").css('background', 'url("Latada/moullinex.gif") no-repeat center center fixed');
-
-        $("body").css('-webkit-background-size', 'cover');
-
-        $('#follow').css('display', 'none');
-        $('#follow2').css('display', 'none');
-
+        
+          $(".esconde").addClass('latada_bg');
+         $(".esconde").removeClass('ciclo_bg');
+         $(".esconde").removeClass('gaea_bg');
+         $(".esconde").removeClass('woman_bg');
+         $(".esconde").removeClass('desejo_bg');
+        $(".esconde").removeClass('murals_bg');
         $("nav a").addClass('lat_color');
         $("span").addClass('lat_color');
         $('.num').css('color', '#272725');
@@ -318,9 +313,13 @@ $(document).ready(function () {
         $("#webdev").removeClass("selected");
 
         
-        $("body").css('background', 'url("womanPower/away2.jpg") no-repeat center center fixed');
-
-        $("body").css('-webkit-background-size', 'cover');
+        
+          $(".esconde").addClass('woman_bg');
+         $(".esconde").removeClass('ciclo_bg');
+         $(".esconde").removeClass('latada_bg');
+         $(".esconde").removeClass('gaea_bg');
+         $(".esconde").removeClass('desejo_bg');
+        $(".esconde").removeClass('murals_bg');
         
 
         $("nav a").addClass('lat_color');
@@ -365,10 +364,13 @@ $(document).ready(function () {
         $("#webd").removeClass("selected");
         $("#webdev").removeClass("selected");
 
-        $("body").css('background', 'black');
-
-        $('#follow2').css('display', 'none');
-        $('#follow').css('display', 'flex');
+        
+          $(".esconde").addClass('murals_bg');
+         $(".esconde").removeClass('ciclo_bg');
+         $(".esconde").removeClass('latada_bg');
+         $(".esconde").removeClass('woman_bg');
+         $(".esconde").removeClass('desejo_bg');
+        $(".esconde").removeClass('gaea_bg');
 
      
 
