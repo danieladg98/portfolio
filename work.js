@@ -40,7 +40,7 @@ setInterval(changeColor, 1000);
 
 
 $("#random").hover(function () {
-    var r = Math.floor((Math.random() * 12) + 1);
+    var r = Math.floor((Math.random() * 10) + 1);
     console.log(r);
 
     if (r < 2) {
@@ -48,14 +48,12 @@ $("#random").hover(function () {
     } else if (r == 3 || r == 4) {
         $("#random").attr("href", "latada.html");
     } else if (r == 5 || r == 6) {
-        $("#random").attr("href", "womanpower.html");
+        $("#random").attr("href", "ciclo.html");
     } else if (r == 4 || r == 8) {
         $("#random").attr("href", "murals.html");
     } else if (r == 9 || r == 10) {
         $("#random").attr("href", "desejo.html");
-    } else if (r == 11 || r == 12) {
-        $("#random").attr("href", "ciclo.html");
-    }
+    } 
 });
 
 $(document).mousemove(function (e) {

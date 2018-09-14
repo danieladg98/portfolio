@@ -36,11 +36,9 @@ $(document).ready(function () {
         $("#desejo").removeClass("selected");
         $("#ciclo").removeClass("selected");
         $("#latada").removeClass("selected");
-        $("#womanpower").removeClass("selected");
         $("#live").removeClass("selected");
         $("#desejo").addClass("op");
         $("#latada").addClass("op");
-        $("#womanpower").addClass("op");
         $("#live").addClass("op");
         $("#ciclo").addClass("op");
 
@@ -78,11 +76,9 @@ $(document).ready(function () {
         $("#desejo").removeClass("selected");
         $("#ciclo").removeClass("selected");
         $("#latada").removeClass("selected");
-        $("#womanpower").removeClass("selected");
         $("#live").removeClass("selected");
         $("#desejo").addClass("op");
         $("#latada").addClass("op");
-        $("#womanpower").addClass("op");
         $("#live").addClass("op");
         $("#ciclo").addClass("op");
 
@@ -110,7 +106,6 @@ $(document).ready(function () {
           $(".esconde").addClass('gaea_bg');
          $(".esconde").removeClass('ciclo_bg');
          $(".esconde").removeClass('latada_bg');
-         $(".esconde").removeClass('woman_bg');
          $(".esconde").removeClass('desejo_bg');
         $(".esconde").removeClass('murals_bg');
 
@@ -131,11 +126,9 @@ $(document).ready(function () {
         $("#desejo").removeClass("selected");
         $("#gaea").removeClass("selected");
         $("#latada").removeClass("selected");
-        $("#womanpower").removeClass("selected");
         $("#live").removeClass("selected");
         $("#desejo").addClass("op");
         $("#latada").addClass("op");
-        $("#womanpower").addClass("op");
         $("#live").addClass("op");
         $("#gaea").addClass("op");
 
@@ -163,7 +156,6 @@ $(document).ready(function () {
        $(".esconde").addClass('ciclo_bg');
          $(".esconde").removeClass('gaea_bg');
          $(".esconde").removeClass('latada_bg');
-         $(".esconde").removeClass('woman_bg');
          $(".esconde").removeClass('desejo_bg');
         $(".esconde").removeClass('murals_bg');
 
@@ -184,11 +176,9 @@ $(document).ready(function () {
         $("#gaea").removeClass("selected");
         $("#ciclo").removeClass("selected");
         $("#latada").removeClass("selected");
-        $("#womanpower").removeClass("selected");
         $("#live").removeClass("selected");
         $("#gaea").addClass("op");
         $("#latada").addClass("op");
-        $("#womanpower").addClass("op");
         $("#live").addClass("op");
         $("#ciclo").addClass("op");
 
@@ -215,7 +205,6 @@ $(document).ready(function () {
          $(".esconde").addClass('desejo_bg');
          $(".esconde").removeClass('ciclo_bg');
          $(".esconde").removeClass('latada_bg');
-         $(".esconde").removeClass('woman_bg');
          $(".esconde").removeClass('gaea_bg');
         $(".esconde").removeClass('murals_bg');
 
@@ -235,11 +224,9 @@ $(document).ready(function () {
         $("#ciclo").removeClass("selected");
         $("#gaea").removeClass("selected");
         $("#live").removeClass("selected");
-        $("#womanpower").removeClass("selected");
         $("#desejo").removeClass("selected");
         $("#gaea").addClass("op");
         $("#live").addClass("op");
-        $("#womanpower").addClass("op");
         $("#desejo").addClass("op");
         $("#ciclo").addClass("op");
 
@@ -267,7 +254,6 @@ $(document).ready(function () {
           $(".esconde").addClass('latada_bg');
          $(".esconde").removeClass('ciclo_bg');
          $(".esconde").removeClass('gaea_bg');
-         $(".esconde").removeClass('woman_bg');
          $(".esconde").removeClass('desejo_bg');
         $(".esconde").removeClass('murals_bg');
         $("nav a").addClass('lat_color');
@@ -275,57 +261,6 @@ $(document).ready(function () {
         $('.num').css('color', '#272725');
         $("p").addClass('lat_color');
 
-    });
-
-
-    $("#womanpower").hover(function () {
-        $(this).addClass("selected");
-        $(this).removeClass("op");
-        $("#ciclo").removeClass("selected");
-        $("#gaea").removeClass("selected");
-        $("#latada").removeClass("selected");
-        $("#live").removeClass("selected");
-        $("#desejo").removeClass("selected");
-        $("#gaea").addClass("op");
-        $("#latada").addClass("op");
-        $("#live").addClass("op");
-        $("#desejo").addClass("op");
-        $("#ciclo").addClass("op");
-
-        $("#02").addClass("op");
-        $("#04").addClass("op");
-        $("#03").addClass("op");
-        $("#01").addClass("op");
-        $("#05").addClass("op");
-        $("#06").removeClass("op");
-
-        $("#grad").addClass("selected");
-        $("#grad").removeClass("op");
-        $("#av").addClass("op");
-        $("#brand").addClass("op");
-        $("#edit").addClass("op");
-        $("#webd").addClass("op");
-        $("#webdev").addClass("op");
-        $("#av").removeClass("selected");
-        $("#brand").removeClass("selected");
-        $("#edit").removeClass("selected");
-        $("#webd").removeClass("selected");
-        $("#webdev").removeClass("selected");
-
-        
-        
-          $(".esconde").addClass('woman_bg');
-         $(".esconde").removeClass('ciclo_bg');
-         $(".esconde").removeClass('latada_bg');
-         $(".esconde").removeClass('gaea_bg');
-         $(".esconde").removeClass('desejo_bg');
-        $(".esconde").removeClass('murals_bg');
-        
-
-        $("nav a").addClass('lat_color');
-        $("span").addClass('lat_color');
-        $('.num').css('color', '#272725');
-        $("p").addClass('lat_color');
     });
 
 
@@ -336,11 +271,9 @@ $(document).ready(function () {
         $("#ciclo").removeClass("selected");
         $("#gaea").removeClass("selected");
         $("#latada").removeClass("selected");
-        $("#womanpower").removeClass("selected");
         $("#desejo").removeClass("selected");
         $("#gaea").addClass("op");
         $("#latada").addClass("op");
-        $("#womanpower").addClass("op");
         $("#desejo").addClass("op");
         $("#ciclo").addClass("op");
 
@@ -368,7 +301,6 @@ $(document).ready(function () {
           $(".esconde").addClass('murals_bg');
          $(".esconde").removeClass('ciclo_bg');
          $(".esconde").removeClass('latada_bg');
-         $(".esconde").removeClass('woman_bg');
          $(".esconde").removeClass('desejo_bg');
         $(".esconde").removeClass('gaea_bg');
 

@@ -13,6 +13,7 @@ body {
     font-size: 2vw;
     opacity: 1;
     transition: .5s opacity;
+    height:100vh;
 }
 
 bg {
@@ -54,15 +55,6 @@ bg {
 
 .latada_bg {
     background: url(Latada/moullinex.gif) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    overflow-x: hidden;
-}
-
-.woman_bg {
-    background: url(womanPower/away2.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
