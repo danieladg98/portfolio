@@ -194,7 +194,7 @@ p br {
     z-index: 2;
 }
 
-.not_responsive{
+#not_responsive{
     display: none;
 }
 
