@@ -100,9 +100,9 @@ nav a {
 nav a:hover,
 nav a:active {
     text-decoration: none;
-    color: white;
-    letter-spacing: 2.5px;
+    color:white;
     opacity: 0.25;
+    letter-spacing: 2px;
     transition-duration: .4s;
     transition-timing-function: ease;
 }

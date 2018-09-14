@@ -193,3 +193,25 @@ nav a:active {
 }
 
 
+#not_responsive{
+    display:none;
+}
+@media only screen and (max-device-width: 1160px){
+    
+  #not_responsive{
+    display: flex;
+    margin-top:50%;
+    margin-left:20%;
+}
+    
+      #loader{
+    display: none;
+}
+    
+    .esconde{
+        display:none;
+    }
+    
+}
+
+
