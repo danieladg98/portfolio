@@ -6,19 +6,18 @@ body {
     -o-background-size: cover;
     background-size: cover;
     overflow-x: hidden;
-    
 }
 
-.esconde{
+.esconde {
     /*fadeout*/
     font-size: 2vw;
     opacity: 1;
     transition: .5s opacity;
-    
 }
 
-.gaea_bg{
-     background: url(Gaea/videocapa.gif) no-repeat center center fixed;
+bg {
+    position: fixed;
+    background: url(Gaea/videopag.gif) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -26,8 +25,8 @@ body {
     overflow-x: hidden;
 }
 
-.ciclo_bg{
-     background: url(ciclo/Divulgacao.gif) no-repeat center center fixed;
+.gaea_bg {
+    background: url(Gaea/videocapa.gif) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -35,8 +34,8 @@ body {
     overflow-x: hidden;
 }
 
-.desejo_bg{
-     background: url(Desejo/e.gif) no-repeat center center fixed;
+.ciclo_bg {
+    background: url(ciclo/Divulgacao.gif) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -44,8 +43,8 @@ body {
     overflow-x: hidden;
 }
 
-.latada_bg{
-     background: url(Latada/moullinex.gif) no-repeat center center fixed;
+.desejo_bg {
+    background: url(Desejo/e.gif) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -53,8 +52,8 @@ body {
     overflow-x: hidden;
 }
 
-.woman_bg{
-     background: url(womanPower/away2.jpg) no-repeat center center fixed;
+.latada_bg {
+    background: url(Latada/moullinex.gif) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -62,8 +61,8 @@ body {
     overflow-x: hidden;
 }
 
-.murals_bg{
-     background: url(womanPower/away2.jpg) no-repeat center center fixed;
+.woman_bg {
+    background: url(womanPower/away2.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -71,7 +70,14 @@ body {
     overflow-x: hidden;
 }
 
-
+.murals_bg {
+    background: url(murals/main.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-x: hidden;
+}
 
 .fade-out {
     opacity: 0;
@@ -110,7 +116,7 @@ nav a:active {
 }
 
 .lat_color {
-    color:black;
+    color: black;
     transition: 1s color;
 }
 
@@ -187,7 +193,6 @@ p br {
     z-index: 0;
 }
 
-
 #follow2 {
     position: absolute;
     z-index: 0;
@@ -196,4 +201,3 @@ p br {
 .inf {
     z-index: 2;
 }
-
