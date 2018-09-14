@@ -6,6 +6,7 @@ AOS.init({
 $(document).ready(function () {
 
     var move = 0;
+     var move2 = 0;
     var i = 10;
 
     $(document).mousemove(function (e) {
@@ -27,6 +28,7 @@ $(document).ready(function () {
 
 
         move = 0;
+        move2 = 0;
         i = 10;
 
         $("#gaea").addClass("selected");
@@ -73,6 +75,7 @@ $(document).ready(function () {
 
     $("#gaea").hover(function () {
         move = 0;
+         move2 = 0;
         i = 10;
 
         $(this).addClass("selected");
@@ -125,6 +128,7 @@ $(document).ready(function () {
 
     $("#ciclo").hover(function () {
         move = 0;
+         move2 = 0;
         i = 10;
 
         $(this).addClass("selected");
@@ -177,6 +181,7 @@ $(document).ready(function () {
 
     $("#desejo").hover(function () {
         move = 0;
+         move2 = 0;
         i = 10;
 
         $(this).addClass("selected");
@@ -227,6 +232,7 @@ $(document).ready(function () {
 
     $("#latada").hover(function () {
         move = 0;
+         move2 = 0;
         i = 10;
 
         $(this).addClass("selected");
@@ -319,7 +325,7 @@ $(document).ready(function () {
 
         //image follows mouse         
         $(document).mousemove(function (e) {
-            move++;
+            move2++;
             var x = e.pageX - 300;
             var y = e.pageY - 300;
             $('#follow').addClass('disp');
@@ -327,7 +333,7 @@ $(document).ready(function () {
             $('#follow2').css('margin-top', y);
             $('#follow2').css('margin-left', x);
 
-            if (move % 20 == 0) {
+            if (move2 % 20 == 0) {
                 var path = 'womanPower/main/',
                     imgs = ['03.jpg', '04.jpg', '05.jpg', '06.jpg', '07.jpg', '08.jpg', '09.jpg', '010.jpg', '011.jpg', '012.jpg', '1.jpg', '012.jpg', '011.jpg', '010.jpg', '09.jpg', '08.jpg', '07.jpg', '06.jpg', '05.jpg', '04.jpg', '03.jpg'];
 
