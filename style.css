@@ -23,7 +23,7 @@ bg {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .gaea_bg {
