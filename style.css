@@ -23,7 +23,7 @@ bg {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    overflow: hidden;
+ 
 }
 
 .gaea_bg {
@@ -32,7 +32,7 @@ bg {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    overflow-x: hidden;
+  
 }
 
 .ciclo_bg {
@@ -41,7 +41,7 @@ bg {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    overflow-x: hidden;
+  
 }
 
 .desejo_bg {
@@ -50,7 +50,7 @@ bg {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    overflow-x: hidden;
+ 
 }
 
 .latada_bg {
@@ -59,7 +59,7 @@ bg {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    overflow-x: hidden;
+
 }
 
 .murals_bg {
@@ -68,7 +68,7 @@ bg {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    overflow-x: hidden;
+
 }
 
 .fade-out {
