@@ -47,26 +47,21 @@ body {
 }
 
 .inside{
-    padding-left:22%;
+    margin-left: auto;
+    margin-right: auto;
     display: table-cell;
-    vertical-align: middle;
+vertical-align: middle;
+    text-align: center;
 }
 
 .inside2{
-    padding-left:5%;
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.inside3{
-    
     padding-left:15%; 
 padding-right:15%;
     display: table-cell;
     vertical-align: middle;
 }
 
-.inside3 p{
+.inside2 p{
     background-color:black;
     padding:5%;
     color: white;
@@ -74,11 +69,7 @@ padding-right:15%;
     font-size: 5vw;
 }
 
-.inside4{
-    padding-left:30%;
-    display: table-cell;
-    vertical-align: middle;
-}
+
 
 .changeColor {
    background: white;
