@@ -1,0 +1,99 @@
+body {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 90vh;
+    overflow-x: hidden;
+
+    background:#3500D3;
+    transition: background 1s ease-in-out;
+}
+
+.marquee {
+    margin: -10% 0 0 0;
+    white-space: nowrap;
+    overflow: hidden;
+    position: fixed;
+    height: 110vh;
+    color:white;
+}
+
+.marquee span {
+    display: inline-block;
+    animation: marquee 600s linear infinite;
+}
+
+.marquee2 span {
+    animation-delay: 22.5s;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-100%, 0);
+    }
+}
+
+#bg{
+    z-index:0;
+}
+
+.section{
+    z-index:5;
+    position: relative;
+    display:table;
+    height: 100vh;
+    width:100vw;
+}
+
+.inside{
+    margin-left: auto;
+    margin-right: auto;
+    display: table-cell;
+vertical-align: middle;
+    text-align: center;
+}
+
+.inside2{
+    padding-left:15%; 
+padding-right:15%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inside2 p{
+    background-color:black;
+    padding:5%;
+    color: white;
+    font-family: 'Asul', sans-serif;
+    font-size: 5vw;
+}
+
+#wait{
+    width:40%;
+}
+
+#hello{
+    width:55%;
+}
+
+#looking{
+    width:90%;
+}
+
+
+.changeColor {
+   background: white;
+}
+
+a{
+    text-decoration: underline;
+    color:white;
+}
+
+a:hover{
+    text-decoration: none;
+    color:white;
+    font-style: italic;
+    text-decoration: underline;
+}
